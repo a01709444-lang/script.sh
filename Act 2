@@ -1,0 +1,8 @@
+encontrado=0
+
+while IFS= read -r -d '' archivo; do
+
+    # Ignorar archivos que no sean de texto
+    if ! grep -Iq . "$archivo" 2>/dev/null; then
+        continue
+    fi
