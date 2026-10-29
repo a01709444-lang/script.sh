@@ -1,0 +1,11 @@
+Integrante 1: Módulo de Validación de Entrada
+- Nombre de tu rama en Git: feature/validacion-argumentos
+- Tu objetivo: Garantizar que el programa reciba la información correcta antes de intentar buscar algo.
+
+Integrante 2: Módulo del Motor de Búsqueda
+- Nombre de tu rama en Git: feature/motor-busqueda
+- Tu objetivo: Construir la lógica de búsqueda recursiva de archivos dentro del sistema.
+
+Integrante 3: Módulo de Formato y Conteo de Ocurrencias
+- Nombre de tu rama en Git: feature/formato-salida
+- Tu objetivo: Calcular cuántas veces aparece la palabra por archivo y darle un formato visual claro a la salida en pantalla.
