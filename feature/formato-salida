@@ -1,0 +1,16 @@
+#!/bin/bash
+
+formato_salida() {
+
+    palabra="$1"
+    archivo="$2"
+
+    frecuencia=$(grep -oF -- "$palabra" "$archivo" | wc -l)
+
+    if [ "$frecuencia" -gt 0 ]; then
+        echo "----------------------------------------"
+        echo "Archivo: $archivo"
+        echo "Frecuencia: $frecuencia"
+        echo "----------------------------------------"
+    fi
+}
